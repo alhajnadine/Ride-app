@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Design landing page.">
+    <meta name="author" content="Devcrud">
+    <title>RideApp</title>
+    <link href="../imgs/logo.png" rel="icon">
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Design main styles -->
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navbar -->
+    <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><strong class="text-primary">Ride</strong> <span class="text-dark">App</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                   
+
+
+                </ul>
+            </div>
+        </div>
+    </nav><!-- End of Page Navbar -->   
+
+    <div class="row">
+        <div class="col-sm-12" style="margin-top: 100px;">
+         <div class="well">
+          <h3><span class="fa fa-user"></span> Bonjour <%= user.fullname %> !</h3>
+          <p><strong>mail :</strong> <%= user.username %> <br></p>
+         </div>
+        </div>
+       </div>
+       <p>Retourner à l'accueil. <a href="/">Accueil</a></p>
+      </div>
+    <!-- core  -->
+    <script src="../config/passeport.js"></script>
+    <script src="vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="node_modules/mysql/index.js"></script>
+    
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBi3tzwp-NeXzn1VssiiooacnFLlata9Y0"></script>
+
+    <!-- bootstrap affix -->
+    <script src="vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Design js -->
+    <script src="../js/index.js"></script>
+
+</body>
+</html>
